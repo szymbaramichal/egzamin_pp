@@ -1,27 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 
 int liczba_podciagow(char* lancuch1, char* lancuch2) {
-    int count = 0; 
-    int i, j, k;
-    int found;
+    int count = 0;
+    char* ptr = lancuch1;
 
-    for (i = 0; lancuch1[i] != '\0'; i++) {
-        if (lancuch1[i] == lancuch2[0]) {
-            found = 1;
-            k = i + 1;
-
-            for (j = 1; lancuch2[j] != '\0'; j++) {
-                if (lancuch1[k] != lancuch2[j]) {
-                    found = 0;
-                    break;
-                }
-                k++;
-            }
-
-            if (found) {
-                count++;
-            }
-        }
+    while ((ptr = strstr(ptr, lancuch2)) != NULL) {
+        count++;
+        ptr += strlen(lancuch2);
     }
 
     return count;

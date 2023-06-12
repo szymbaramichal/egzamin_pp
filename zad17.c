@@ -17,5 +17,6 @@ int main()
     return 0;
 }
 
-//ODPOWIEDZ: proceduralne
-// programowanie proceduralne
+//ODPOWIEDZ:
+//proceduralne
+//programowanie proceduralne

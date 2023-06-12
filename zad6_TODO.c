@@ -9,7 +9,7 @@ typedef struct towar
     float cena;
 } TOWAR;
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) // argc - liczba argumentow, argv - argumenty
 {
     TOWAR produkt = {.nazwa = "pralka", .cena = 899.99, .id = 1};
     TOWAR kopia_produkt;

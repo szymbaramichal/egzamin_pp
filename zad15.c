@@ -8,4 +8,5 @@ int main(void)
     printf("%d\t %d\t %d\t %d\t %d\t", 2**p, 2**t+4, 2**(t+1), 4*(*p+2), p-t);
 }
 
-// ODPOWIEDZ: -6       8       10      -4      3
+//ODPOWIEDZ:
+//-6       8       10      -4      3

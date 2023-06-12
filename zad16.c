@@ -15,6 +15,7 @@ int main(void)
     return 0;
 }
 
-//ODPOWIEDZ: 1 4
-// 3 10
-// 5 11
+//ODPOWIEDZ:
+//1 4
+//3 10
+//5 11

@@ -17,7 +17,8 @@ int main(void)
     return 0;
 }
 
-//ODPOWIEDZ : 6
-// 7
-// 8
+//ODPOWIEDZ:
+//6
+//7
+//8
 //7

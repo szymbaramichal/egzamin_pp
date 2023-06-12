@@ -19,4 +19,5 @@ int main(void)
     return 0;
 }
 
-// ODPOWIEDZ: 4.0 5.00
+//ODPOWIEDZ:
+//4.0 5.00

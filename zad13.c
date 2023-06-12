@@ -19,4 +19,5 @@ int main(void)
     return 0;
 }
 
-// ODPOWIEDZ: p!o!r!m!w!n!e
+//ODPOWIEDZ:
+//p!o!r!m!w!n!e

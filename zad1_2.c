@@ -4,7 +4,7 @@
 int** alokuj(int iloscWierszy) 
 {
     int **arr = malloc(sizeof(int *));
-    for (int k = 0; k <= iloscWierszy; k++)
+    for (int k = 0; k < iloscWierszy; k++)
     {
         arr[k] = malloc((iloscWierszy - k) * sizeof(int));
     }
@@ -20,10 +20,7 @@ void wypelnij_wyswietl(int **arr, int iloscWierszy)
         {
             arr[i][j] = j + 1;
         }
-    }
 
-    for (int i = 0; i < iloscWierszy; i++)
-    {
         for (int j = 0; j < iloscWierszy - i; j++)
         {
             printf("%d ", arr[i][j]);

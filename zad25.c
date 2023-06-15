@@ -19,3 +19,5 @@ int main(void)
     f(6);
     return 0;
 }
+
+//2   0   2   4   6

@@ -26,7 +26,6 @@ int moja_atoi(char *tab) {
         znakLiczby = (tab[index] == '-') ? -1 : 1;
         index++;
     }
-
     // Konwersja liczby
     while (tab[index] >= '0' && tab[index] <= '9') {
         wynik = wynik * 10 + (tab[index] - '0');

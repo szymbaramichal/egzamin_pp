@@ -15,7 +15,6 @@ int main(void)
 
 void uzupelnij_wyswietl(char **tab)
 { 
-    tab = malloc(W * sizeof(char *));
     for (int i = 0; i < W; i++)
     {
         tab[i] = malloc(K * sizeof(char)); 
@@ -27,15 +26,10 @@ void uzupelnij_wyswietl(char **tab)
                 randomLetter = 'A' + rand() % 57;  
             }
             tab[i][j] = randomLetter;
-        }
-    }
-    
-    for (int i = 0; i < W; i++)
-    {
-        for (int j = 0; j < K; j++)
-        {
             printf("%c ", tab[i][j]);
         }
+
         printf("\n");
+
     }
 }

@@ -3,9 +3,9 @@
 
 void f(float *x, float *y)
 {
-    *y = --*x; //4
+    *y = --*x;
     x = y;
-    ++*x; // 1
+    ++*x;
 }
 
 int main(void)
